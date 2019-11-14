@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -g -Wall -lncurses
 LIBS = -lncurses
-SRCS = twinkle.c annoy.c colortest.c
+SRCS = twinkle.c annoy.c colortest.c colorme.c
 OBJS = $(SRCS:.c=.o)
 
 all:	$(OBJS)
