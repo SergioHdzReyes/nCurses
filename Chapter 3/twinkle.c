@@ -1,8 +1,9 @@
 #include <ncurses.h>
+#include "../tools.h"
 
 int main(void)
 {
-  initscr();
+  init_curses(false);
 
   attron(A_BOLD);
   addstr("Twinkle, twinkle little start\n");

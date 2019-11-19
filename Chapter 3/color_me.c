@@ -1,4 +1,5 @@
 #include <ncurses.h>
+#include "../tools.h"
 
 #define NEW_COLOR 1
 #define RED 1000
@@ -7,10 +8,7 @@
 
 int main(void)
 {  
-  initscr();
-  start_color();
-  if (!can_change_color())
-    addstr("This probably won't work, but anyway:\n");
+  init_curses(true);
 
   init_color(NEW_COLOR, RED, GREEN, BLUE);
 
