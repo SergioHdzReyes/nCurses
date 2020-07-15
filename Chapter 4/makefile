@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -lncurses -ltinfo
-SRCS = screensize.c stdscrsize.c corners1.c
+SRCS = screensize.c stdscrsize.c corners1.c corners2.c
 OBJS = $(SRCS:.c=.o)
 
 all:	$(OBJS)
