@@ -1,6 +1,6 @@
 #include <ncurses.h>
 
-void main(void)
+int main(void)
 {
   int rows, cols;
 
@@ -27,4 +27,5 @@ void main(void)
   getch();
 
   endwin();
+  return 0;
 }

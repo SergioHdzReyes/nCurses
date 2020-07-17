@@ -3,7 +3,7 @@
 
 void center(int row, char *title);
 
-void main(void)
+int main(void)
 {
   initscr();
 
@@ -14,6 +14,7 @@ void main(void)
   getch();
 
   endwin();
+  return 0;
 }
 
 void center(int row, char *title)

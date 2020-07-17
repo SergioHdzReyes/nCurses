@@ -1,6 +1,6 @@
 #include <ncurses.h>
 
-void main(void)
+int main(void)
 {
   initscr();
 
@@ -9,4 +9,5 @@ void main(void)
   getch();
 
   endwin();
+  return 0;
 }
