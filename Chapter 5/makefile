@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -lncurses -ltinfo
-SRCS = hamlet1.c hamlet2.c
+SRCS = hamlet1.c hamlet2.c hamlet3.c marquee1.c
 OBJS = $(SRCS:.c=.o)
 
 all:	$(OBJS)
